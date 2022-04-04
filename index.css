@@ -1,0 +1,67 @@
+.topnav{
+  background-color: purple;
+  overflow:hidden;
+}
+.topnav a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+ .topnav a:hover{
+   background-color: white;
+   color: black;
+ }
+*{
+  box-sizing: border-box;
+
+}
+header{
+  color: white;
+  background-color: blue;
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header::first-letter{
+  font-size: 50px;
+}
+#sidenav{
+  background-color: teal;
+  width: 30%;
+  height: 300px;
+  float: left;
+}
+#navigation{
+  list-style: none;
+  color: white;
+  padding: 8px;
+}
+li{
+  height: 45px;
+}
+a{
+  color: white;
+  padding: 10px;
+
+}
+#adan{
+  background-color: navy;
+  color: white;
+  height: 300px;
+  float: right;
+  width: 70%
+}
+footer {
+  background-color: purple;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+#hii ni dep{
+  font-weight: bold;
+}
